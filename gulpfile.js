@@ -11,6 +11,7 @@ var gulp         = require('gulp'), // Подключаем Gulp
     cache        = require('gulp-cache'), // Подключаем библиотеку кеширования
     autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
     uncss        = require('gulp-uncss');
+    pug          = require('gulp-pug');
 
 gulp.task('sass', function() { // Создаем таск Sass
     return gulp.src('app/sass/**/*.sass') // Берем источник
@@ -18,6 +19,15 @@ gulp.task('sass', function() { // Создаем таск Sass
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
         .pipe(gulp.dest('app/css')) // Выгружаем результата в папку app/css
         .pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
+});
+
+gulp.task('pug', function() { // Создаем таск Pug
+    return gulp.src('app/pug/pages/*.pug') // Берем источник
+        .pipe(pug({
+            pretty:true
+        })) // Преобразуем Pug в HTML посредством gulp-pug
+        .pipe(gulp.dest('app/html')) // Выгружаем результата в папку app
+        .pipe(browserSync.reload({stream: true}))
 });
 
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
@@ -107,5 +117,5 @@ gulp.task('watch', function() {
     gulp.watch('app/*.html', gulp.parallel('code')); // Наблюдение за HTML файлами в корне проекта
     gulp.watch(['app/js/common.js', 'app/libs/**/*.js'], gulp.parallel('scripts')); // Наблюдение за главным JS файлом и за библиотеками
 });
-gulp.task('default', gulp.parallel('css-libs', 'sass', 'scripts', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('css-libs', 'pug', 'sass', 'scripts', 'browser-sync', 'watch'));
 gulp.task('build', gulp.parallel('prebuild', 'clean', 'img', 'sass', 'scripts'));
