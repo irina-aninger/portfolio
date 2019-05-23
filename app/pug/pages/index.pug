@@ -18,11 +18,22 @@ html(lang=en)
                 li: a(href="#") Contact
         section#front_banner
             div.img_box: .container: div.txt_block
-        section#work_box
+        section#work_box: .container
             h2.left My Works
-            .works_items: .work_item
-        section
-        section
-        section
-        section
+            .works_items
+                .work_item
+                    img(src='../img/main_img.jpg')
+                    .hidden_desc
+                        p.title
+                        p.desc
+                        .links
+                .work_item
+                .work_item
+                .work_item
+                .work_item
+                .work_item
+        section#skills_box: .container
+            h2.right About Me
+        section#contact: .container
+            h2.left Contact
         footer
