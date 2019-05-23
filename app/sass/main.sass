@@ -1,5 +1,6 @@
 @import "../sass/fonts.sass"
 
+//MIXIN
 @mixin x_large
   @media (min-width: 1200px)
     @content
@@ -11,6 +12,10 @@
 @mixin medium
   @media (max-width: 991px)
     @content
+//END MIXIN
+
+//ANIMATION
+//END ANIMATION
 
 
 body
@@ -26,9 +31,16 @@ body
 
 h1, h2, h3
   font: 50px 'Raleway', sans-serif
+  margin: 0 0 70px;
+
+section
+  height: 100%
+  padding: 70px 0
 
 .container
   margin: 0 auto
+  height: 100%
+  position: relative
   @include x_large
     width: 1140px
   @include large
@@ -51,30 +63,66 @@ li
 header
   position: fixed
   width: 100%
-  background: rgba(58, 60, 62, 0.29)
+  background: rgba(29,29,29,0.39)
   padding: 20px 0
+  z-index: 1000
+  transition: .3s
+  &:hover
+    background: rgba(29, 29, 29, 0.53)
   .container
-    height: 100%
     display: flex
     .logo
       width: 40%
       font-size: 32px
       line-height: 1
       text-transform: uppercase
-      color: #ffba00
+      a
+        color: #ffba00
+        span
+          font-family: 'RalewayBold'
     nav
       float: right
       width: 60%
       ul
         display: flex
+        float: right
         li
+          &:last-child
+            a
+              margin-right: 0
           a
             font-size: 19px
             margin: 0 15px
+            position: relative
+            &:before
+              content: ''
+              position: absolute
+              width: 100%
+              height: 1px
+              background: #ffba00
+              bottom: -30px
+              opacity: 0
+              transition: .2s
+            &:hover
+              &:before
+                bottom: -3px
+                opacity: 1
 
 #front_banner
+  padding: 0
   .img_box
     background: url("../img/main_img.jpg")
     height: 100vh
     width: 100%
     background-size: cover
+    .txt_block
+      position: absolute
+      margin: auto
+      top: 0
+      bottom: 0
+      height: 300px
+      text-align: right
+      color: #2e2c37
+
+#work_box
+  background-color: #313131

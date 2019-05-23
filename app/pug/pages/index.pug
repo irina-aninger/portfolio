@@ -7,18 +7,20 @@ html(lang=en)
         link(href='/css/libs.css', rel='stylesheet')
         link(href='/css/main.css', rel='stylesheet')
     body
-        header
-            .container
-                .logo Irina<br>Petrushenko
-                nav: ul
-                        li: a Home
-                        li: a Portfolio
-                        li: a Services
-                        li: a About
-                        li: a Contact
+        header: .container
+            .logo
+                a(href="#") <span>I</span>rina<br><span>P</span>etrushenko
+            nav: ul
+                li: a(href="#") Home
+                li: a(href="#") Portfolio
+                li: a(href="#") Services
+                li: a(href="#") About
+                li: a(href="#") Contact
         section#front_banner
-            div.img_box
-        section#work_box 123
+            div.img_box: .container: div.txt_block
+        section#work_box
+            h2.left My Works
+            .works_items: .work_item
         section
         section
         section
