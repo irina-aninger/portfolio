@@ -2,7 +2,6 @@ doctype html
 html(lang=en)
     head
         title Portfolio
-        script(src='/js/common.js')
         link(href='/css/libs.css', rel='stylesheet')
         link(href='/css/main.css', rel='stylesheet')
     body
@@ -26,7 +25,7 @@ html(lang=en)
                         p.title Co-working
                         p.desc This is the first experience of layout landing page
                         .links
-                            a(href='#') More
+                            a.more(href='#work_item__pop-up') More
                             a(href='#') Go to
                 .work_item
                     img(src='../img/elegia.png')
@@ -34,7 +33,7 @@ html(lang=en)
                         p.title Project 1
                         p.desc Work in this
                         .links
-                            a(href='#') More
+                            a.more(href='#work_item__pop-up') More
                             a(href='#') Go to
                 .work_item
                     img(src='../img/gradient.png')
@@ -42,7 +41,7 @@ html(lang=en)
                         p.title Project 1
                         p.desc Work in this
                         .links
-                            a(href='#') More
+                            a.more(href='#work_item__pop-up') More
                             a(href='#') Go to
                 .work_item
                     img(src='../img/together.png')
@@ -50,7 +49,7 @@ html(lang=en)
                         p.title Project 1
                         p.desc Work in this
                         .links
-                            a(href='#') More
+                            a.more(href='#work_item__pop-up') More
                             a(href='#') Go to
                 .work_item
                     img(src='../img/together.png')
@@ -58,7 +57,7 @@ html(lang=en)
                         p.title Project 1
                         p.desc Work in this
                         .links
-                            a(href='#') More
+                            a.more(href='#work_item__pop-up') More
                             a(href='#') Go to
                 .work_item
                     img(src='../img/together.png')
@@ -66,10 +65,76 @@ html(lang=en)
                         p.title Project 1
                         p.desc Work in this
                         .links
-                            a(href='#') More
+                            a.more(href='#work_item__pop-up') More
                             a(href='#') Go to
         section#skills_box: .container
             h2.right About Me
+            .experience_wrapper
+                h3 Work Experience
+                .experience_item
+                    p.title HTML/CSS/JQuery-coder
+                    .desc
+                        h4 Seologic
+                        p April 2018 - July 2019
+                        ul
+                            li LoremLoremLoremLoremLoremLoremLorem
+                            li LoremLoremLoremLoremLoremLoremLorem
+                            li LoremLoremLoremLoremLoremLoremLorem
+            .skills_wrapper
+                h3 Software Skills
+                .skills_item
+                    div#photoshop
+                        p.title Photoshop
+                        .progress-bar
+                    div#illustrator
+                        p.title Illustrator
+                        .progress-bar
+                h3 Technical Skills
+                .skills_item
+                    div#html
+                        p.title Html
+                        .progress-bar
+                    div#css
+                        p.title Css
+                        .progress-bar
+                h3 Languages
+                .skills_item
+                    div#english
+                        p.title English
+                        .progress-bar
+                    div#deutsch
+                        p.title Deutsch
+                        .progress-bar
         section#contact: .container
             h2.left Contact
+            #feedback_form
+                form(action="#" method="post")
+                    div
+                        label(for="name") Name
+                        input#name(type="text" name="name" value="")
+                    div
+                        label(for="email") Email
+                        input#email(type="text" name="email" value="")
+                    div
+                        label(for="message") Message
+                        textarea#message(name="message")
+                    div
+                        input#submit(type="submit" value="send")
         footer
+            .container
+                .copyright © 2019 Irina Petrushenko.
+                .soc_link
+            #work_item__pop-up
+                .pop-up__wrapper
+                    .close
+                    .img_col
+                        img(src='../img/gradient.png')
+                    .info_col
+                        .top_link
+                            a(href='#') Site
+                        .desc Irina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina Petrushenko
+                            .tags
+                                ul
+                                    li HTML
+                                    li Css
+        script(src='/js/common.js')

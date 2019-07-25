@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Portfolio</title>
-    <script src="/js/common.js"></script>
     <link href="/css/libs.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
   </head>
@@ -36,42 +35,42 @@
             <div class="hidden_desc">
               <p class="title">Co-working</p>
               <p class="desc">This is the first experience of layout landing page</p>
-              <div class="links"><a href="#">More</a><a href="#">Go to</a></div>
+              <div class="links"><a class="more" href="#work_item__pop-up">More</a><a href="#">Go to</a></div>
             </div>
           </div>
           <div class="work_item"><img src="../img/elegia.png">
             <div class="hidden_desc">
               <p class="title">Project 1</p>
               <p class="desc">Work in this</p>
-              <div class="links"><a href="#">More</a><a href="#">Go to</a></div>
+              <div class="links"><a class="more" href="#work_item__pop-up">More</a><a href="#">Go to</a></div>
             </div>
           </div>
           <div class="work_item"><img src="../img/gradient.png">
             <div class="hidden_desc">
               <p class="title">Project 1</p>
               <p class="desc">Work in this</p>
-              <div class="links"><a href="#">More</a><a href="#">Go to</a></div>
+              <div class="links"><a class="more" href="#work_item__pop-up">More</a><a href="#">Go to</a></div>
             </div>
           </div>
           <div class="work_item"><img src="../img/together.png">
             <div class="hidden_desc">
               <p class="title">Project 1</p>
               <p class="desc">Work in this</p>
-              <div class="links"><a href="#">More</a><a href="#">Go to</a></div>
+              <div class="links"><a class="more" href="#work_item__pop-up">More</a><a href="#">Go to</a></div>
             </div>
           </div>
           <div class="work_item"><img src="../img/together.png">
             <div class="hidden_desc">
               <p class="title">Project 1</p>
               <p class="desc">Work in this</p>
-              <div class="links"><a href="#">More</a><a href="#">Go to</a></div>
+              <div class="links"><a class="more" href="#work_item__pop-up">More</a><a href="#">Go to</a></div>
             </div>
           </div>
           <div class="work_item"><img src="../img/together.png">
             <div class="hidden_desc">
               <p class="title">Project 1</p>
               <p class="desc">Work in this</p>
-              <div class="links"><a href="#">More</a><a href="#">Go to</a></div>
+              <div class="links"><a class="more" href="#work_item__pop-up">More</a><a href="#">Go to</a></div>
             </div>
           </div>
         </div>
@@ -80,13 +79,105 @@
     <section id="skills_box">
       <div class="container">
         <h2 class="right">About Me</h2>
+        <div class="experience_wrapper">
+          <h3>Work Experience</h3>
+          <div class="experience_item">
+            <p class="title">HTML/CSS/JQuery-coder</p>
+            <div class="desc">
+              <h4>Seologic</h4>
+              <p>April 2018 - July 2019</p>
+              <ul>
+                <li>LoremLoremLoremLoremLoremLoremLorem</li>
+                <li>LoremLoremLoremLoremLoremLoremLorem</li>
+                <li>LoremLoremLoremLoremLoremLoremLorem</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="skills_wrapper">
+          <h3>Software Skills</h3>
+          <div class="skills_item">
+            <div id="photoshop">
+              <p class="title">Photoshop</p>
+              <div class="progress-bar"></div>
+            </div>
+            <div id="illustrator">
+              <p class="title">Illustrator</p>
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+          <h3>Technical Skills</h3>
+          <div class="skills_item">
+            <div id="html">
+              <p class="title">Html</p>
+              <div class="progress-bar"></div>
+            </div>
+            <div id="css">
+              <p class="title">Css</p>
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+          <h3>Languages</h3>
+          <div class="skills_item">
+            <div id="english">
+              <p class="title">English</p>
+              <div class="progress-bar"></div>
+            </div>
+            <div id="deutsch">
+              <p class="title">Deutsch</p>
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section id="contact">
       <div class="container">
         <h2 class="left">Contact</h2>
+        <div id="feedback_form">
+          <form action="#" method="post">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" value="">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="text" name="email" value="">
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <div>
+              <input id="submit" type="submit" value="send">
+            </div>
+          </form>
+        </div>
       </div>
     </section>
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <div class="copyright">© 2019 Irina Petrushenko.</div>
+        <div class="soc_link"></div>
+      </div>
+      <div id="work_item__pop-up">
+        <div class="pop-up__wrapper">
+          <div class="close"></div>
+          <div class="img_col"><img src="../img/gradient.png"></div>
+          <div class="info_col">
+            <div class="top_link"><a href="#">Site</a></div>
+            <div class="desc">Irina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina Petrushenko
+              <div class="tags">
+                <ul>
+                  <li>HTML</li>
+                  <li>Css</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/common.js"></script>
   </body>
 </html>
