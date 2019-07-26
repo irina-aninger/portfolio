@@ -7,11 +7,7 @@
     <list default="true" id="b155c468-f9c1-454b-8ac7-6623e3cd7040" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/elegia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/gradient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/together.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/pages/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
@@ -26,20 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+            <state relative-caret-position="431">
+              <caret line="227" column="43" lean-forward="true" selection-start-line="227" selection-start-column="43" selection-end-line="227" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="184" column="22" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
+            <state relative-caret-position="293">
+              <caret line="175" column="22" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -92,8 +88,8 @@
       <find>work_item__pop-up</find>
       <find>tags</find>
       <find>pop-up__wrapper</find>
-      <find>progress-bar</find>
       <find>hidden_desc</find>
+      <find>progress-bar</find>
       <find>work_item</find>
     </findStrings>
   </component>
@@ -119,14 +115,14 @@
         <option value="$PROJECT_DIR$/app/sass/fonts.sass" />
         <option value="$PROJECT_DIR$/app/sass/1" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
-        <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1437" />
-    <option name="width" value="1130" />
+    <option name="x" value="1516" />
+    <option name="width" value="1051" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -212,12 +208,12 @@
       <workItem from="1558594204853" duration="12724000" />
       <workItem from="1558687385114" duration="16143000" />
       <workItem from="1564038638995" duration="21709000" />
-      <workItem from="1564124525295" duration="11205000" />
+      <workItem from="1564124525295" duration="17325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168037000" />
+    <option name="totallyTimeSpent" value="174157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -229,8 +225,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1437" y="0" width="1130" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="1516" y="0" width="1051" height="1047" extended-state="0" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -405,17 +400,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+        <state relative-caret-position="293">
+          <caret line="175" column="22" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="184" column="22" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
+        <state relative-caret-position="431">
+          <caret line="227" column="43" lean-forward="true" selection-start-line="227" selection-start-column="43" selection-end-line="227" selection-end-column="43" />
         </state>
       </provider>
     </entry>
