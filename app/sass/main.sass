@@ -168,31 +168,31 @@ header
   .works_items
     display: grid
     grid-template-columns: repeat(3, 1fr)
+    grid-gap: 15px 15px
     .work_item
-      width: calc(100% - 20px)
+      width: 100%
       height: 400px
-      margin: 10px
       position: relative
       overflow: hidden
       box-shadow: 8px 9px 10px rgba(16, 16, 16, 0.25)
       &:hover
         .hidden_desc
-          opacity: 1
           &::before
             transform: rotate(70deg) translateX(45%)
             transition: .2s
             transition-delay: .4s
+          .desc
+            opacity: 1
+            transition: .3s
         .links
           transition: .2s
           transition-delay: .7s
           bottom: 20px
-        img
-          transform: rotate(5deg) scale(1.3)
-          filter: blur(4px)
       img
         width: 100%
         height: auto
-        transition: .8s
+        transform: rotate(5deg) scale(1.3)
+        filter: blur(4px)
     .hidden_desc
       position: absolute
       height: calc(100% - 40px)
@@ -201,7 +201,6 @@ header
       top: 0
       padding: 20px
       overflow: hidden
-      opacity: 0
       &::before
         content: ''
         width: 100%
@@ -212,6 +211,11 @@ header
       .title
         font: 40px 'Raleway', sans-serif
         color: #ffba00
+      .desc
+        opacity: 0
+        transition: .3s
+      .tags
+        display: none
       .links
         position: absolute
         bottom: -40px
@@ -294,39 +298,10 @@ header
           overflow: hidden
           position: relative
           margin-bottom: 20px
-
-        #photoshop
-          .progress-bar
-            &::before
-              content: ''
-              position: absolute
-              width: 60%
-              height: 100%
-              background: #ffba00
-        #illustrator
-          .progress-bar
-            &::before
-              content: ''
-              position: absolute
-              width: 40%
-              height: 100%
-              background: #ffba00
-        #html
-          .progress-bar
-            &::before
-              content: ''
-              position: absolute
-              width: 70%
-              height: 100%
-              background: #ffba00
-        #css
-          .progress-bar
-            &::before
-              content: ''
-              position: absolute
-              width: 80%
-              height: 100%
-              background: #ffba00
+          .bar
+            width: 0
+            background: #ffba00
+            height: 100%
 
 #contact
   background-color: #313131
@@ -387,6 +362,11 @@ footer
   height: 100%
   width: 100%
   background: #000000bf
+  &.open
+    display: block
+    .pop-up__wrapper
+      transition-delay: .1s
+      transform: translateX(0%)
   .pop-up__wrapper
     width: 1200px
     height: 800px
@@ -395,11 +375,13 @@ footer
     bottom: 0
     left: 0
     right: 0
-    background: rgba(255, 255, 255, 0.9)
+    background: #ffffff
     margin: auto
     display: grid
     grid-template-columns: 1fr 2fr
     overflow: hidden
+    transform: translateX(200%)
+    transition: .5s
     .close
       position: absolute
       right: 15px
@@ -469,3 +451,6 @@ footer
             color: #ffffff
             font-weight: 600
             background: #feb900
+
+.open_pop-up
+  overflow: hidden

@@ -9,64 +9,87 @@ html(lang=en)
             .logo
                 a(href="#") <span>I</span>rina<br><span>P</span>etrushenko
             nav: ul
-                li: a(href="#") Home
-                li: a(href="#") Portfolio
-                li: a(href="#") Services
-                li: a(href="#") About
-                li: a(href="#") Contact
+                li: a(href="#front_banner") Home
+                li: a(href="#work_box") My Works
+                li: a(href="#skills_box") About Me
+                li: a(href="#contact") Contact
         section#front_banner
             div.img_box: .container: div.txt_block
         section#work_box: .container
             h2.left My Works
             .works_items
                 .work_item
-                    img(src='../img/together.png')
+                    img(src='../img/work/1.png')
                     .hidden_desc
                         p.title Co-working
                         p.desc This is the first experience of layout landing page
+                        .tags
+                            ul
+                                li HTML
+                                li Css
                         .links
                             a.more(href='#work_item__pop-up') More
-                            a(href='#') Go to
+                            a(href='https://irina-aninger.github.io/together/') Go to
                 .work_item
-                    img(src='../img/elegia.png')
+                    img(src='../img/work/2.png')
                     .hidden_desc
-                        p.title Project 1
+                        p.title Kinopoisk
                         p.desc Work in this
+                        .tags
+                            ul
+                                li HTML
+                                li Css
                         .links
                             a.more(href='#work_item__pop-up') More
-                            a(href='#') Go to
+                            a(href='https://irina-aninger.github.io/movies/') Go to
                 .work_item
-                    img(src='../img/gradient.png')
+                    img(src='../img/work/3.png')
                     .hidden_desc
-                        p.title Project 1
+                        p.title Belkontplus
                         p.desc Work in this
+                        .tags
+                            ul
+                                li HTML
+                                li Css
                         .links
                             a.more(href='#work_item__pop-up') More
-                            a(href='#') Go to
+                            a(href='http://www.belkontplus.by/') Go to
                 .work_item
-                    img(src='../img/together.png')
+                    img(src='../img/work/4.png')
                     .hidden_desc
-                        p.title Project 1
+                        p.title Gradient
                         p.desc Work in this
+                        .tags
+                            ul
+                                li HTML
+                                li Css
                         .links
                             a.more(href='#work_item__pop-up') More
-                            a(href='#') Go to
+                            a(href='https://www.gradient.by/') Go to
                 .work_item
-                    img(src='../img/together.png')
+                    img(src='../img/work/5.png')
                     .hidden_desc
-                        p.title Project 1
+                        p.title Eurokupe
                         p.desc Work in this
+                        .tags
+                            ul
+                                li HTML
+                                li Css
                         .links
                             a.more(href='#work_item__pop-up') More
-                            a(href='#') Go to
+                            a(href='http://eurokupe.by/') Go to
                 .work_item
-                    img(src='../img/together.png')
+                    img(src='../img/work/6.png')
                     .hidden_desc
-                        p.title Project 1
+                        p.title Aristek Systems
                         p.desc Work in this
+                        .tags
+                            ul
+                                li HTML
+                                li Css
                         .links
                             a.more(href='#work_item__pop-up') More
-                            a(href='#') Go to
+                            a(href='https://www.aristeksystems.com/') Go to
         section#skills_box: .container
             h2.right About Me
             .experience_wrapper
@@ -86,25 +109,31 @@ html(lang=en)
                     div#photoshop
                         p.title Photoshop
                         .progress-bar
+                            .bar
                     div#illustrator
                         p.title Illustrator
                         .progress-bar
+                            .bar
                 h3 Technical Skills
                 .skills_item
                     div#html
                         p.title Html
                         .progress-bar
+                            .bar
                     div#css
                         p.title Css
                         .progress-bar
+                            .bar
                 h3 Languages
                 .skills_item
                     div#english
                         p.title English
                         .progress-bar
+                            .bar
                     div#deutsch
                         p.title Deutsch
                         .progress-bar
+                            .bar
         section#contact: .container
             h2.left Contact
             #feedback_form

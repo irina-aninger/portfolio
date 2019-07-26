@@ -178,28 +178,30 @@ header {
   background-color: #313131; }
   #work_box .works_items {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px 15px; }
     #work_box .works_items .work_item {
-      width: -webkit-calc(100% - 20px);
-      width: calc(100% - 20px);
+      width: 100%;
       height: 400px;
-      margin: 10px;
       position: relative;
       overflow: hidden;
       -webkit-box-shadow: 8px 9px 10px rgba(16, 16, 16, 0.25);
               box-shadow: 8px 9px 10px rgba(16, 16, 16, 0.25); }
-      #work_box .works_items .work_item:hover .hidden_desc {
-        opacity: 1; }
-        #work_box .works_items .work_item:hover .hidden_desc::before {
-          -webkit-transform: rotate(70deg) translateX(45%);
-              -ms-transform: rotate(70deg) translateX(45%);
-                  transform: rotate(70deg) translateX(45%);
-          -webkit-transition: .2s;
-          -o-transition: .2s;
-          transition: .2s;
-          -webkit-transition-delay: .4s;
-               -o-transition-delay: .4s;
-                  transition-delay: .4s; }
+      #work_box .works_items .work_item:hover .hidden_desc::before {
+        -webkit-transform: rotate(70deg) translateX(45%);
+            -ms-transform: rotate(70deg) translateX(45%);
+                transform: rotate(70deg) translateX(45%);
+        -webkit-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s;
+        -webkit-transition-delay: .4s;
+             -o-transition-delay: .4s;
+                transition-delay: .4s; }
+      #work_box .works_items .work_item:hover .hidden_desc .desc {
+        opacity: 1;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
       #work_box .works_items .work_item:hover .links {
         -webkit-transition: .2s;
         -o-transition: .2s;
@@ -208,18 +210,14 @@ header {
              -o-transition-delay: .7s;
                 transition-delay: .7s;
         bottom: 20px; }
-      #work_box .works_items .work_item:hover img {
+      #work_box .works_items .work_item img {
+        width: 100%;
+        height: auto;
         -webkit-transform: rotate(5deg) scale(1.3);
             -ms-transform: rotate(5deg) scale(1.3);
                 transform: rotate(5deg) scale(1.3);
         -webkit-filter: blur(4px);
                 filter: blur(4px); }
-      #work_box .works_items .work_item img {
-        width: 100%;
-        height: auto;
-        -webkit-transition: .8s;
-        -o-transition: .8s;
-        transition: .8s; }
     #work_box .works_items .hidden_desc {
       position: absolute;
       height: -webkit-calc(100% - 40px);
@@ -229,8 +227,7 @@ header {
       background: rgba(0, 0, 0, 0.59);
       top: 0;
       padding: 20px;
-      overflow: hidden;
-      opacity: 0; }
+      overflow: hidden; }
       #work_box .works_items .hidden_desc::before {
         content: '';
         width: 100%;
@@ -243,6 +240,13 @@ header {
       #work_box .works_items .hidden_desc .title {
         font: 40px 'Raleway', sans-serif;
         color: #ffba00; }
+      #work_box .works_items .hidden_desc .desc {
+        opacity: 0;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+      #work_box .works_items .hidden_desc .tags {
+        display: none; }
       #work_box .works_items .hidden_desc .links {
         position: absolute;
         bottom: -40px;
@@ -328,30 +332,10 @@ header {
         overflow: hidden;
         position: relative;
         margin-bottom: 20px; }
-      #skills_box .container .skills_wrapper .skills_item #photoshop .progress-bar::before {
-        content: '';
-        position: absolute;
-        width: 60%;
-        height: 100%;
-        background: #ffba00; }
-      #skills_box .container .skills_wrapper .skills_item #illustrator .progress-bar::before {
-        content: '';
-        position: absolute;
-        width: 40%;
-        height: 100%;
-        background: #ffba00; }
-      #skills_box .container .skills_wrapper .skills_item #html .progress-bar::before {
-        content: '';
-        position: absolute;
-        width: 70%;
-        height: 100%;
-        background: #ffba00; }
-      #skills_box .container .skills_wrapper .skills_item #css .progress-bar::before {
-        content: '';
-        position: absolute;
-        width: 80%;
-        height: 100%;
-        background: #ffba00; }
+        #skills_box .container .skills_wrapper .skills_item .progress-bar .bar {
+          width: 0;
+          background: #ffba00;
+          height: 100%; }
 
 #contact {
   background-color: #313131; }
@@ -414,6 +398,15 @@ footer {
   height: 100%;
   width: 100%;
   background: #000000bf; }
+  #work_item__pop-up.open {
+    display: block; }
+    #work_item__pop-up.open .pop-up__wrapper {
+      -webkit-transition-delay: .1s;
+           -o-transition-delay: .1s;
+              transition-delay: .1s;
+      -webkit-transform: translateX(0%);
+          -ms-transform: translateX(0%);
+              transform: translateX(0%); }
   #work_item__pop-up .pop-up__wrapper {
     width: 1200px;
     height: 800px;
@@ -422,11 +415,17 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.9);
+    background: #ffffff;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    overflow: hidden; }
+    overflow: hidden;
+    -webkit-transform: translateX(200%);
+        -ms-transform: translateX(200%);
+            transform: translateX(200%);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
     #work_item__pop-up .pop-up__wrapper .close {
       position: absolute;
       right: 15px;
@@ -505,3 +504,6 @@ footer {
             color: #ffffff;
             font-weight: 600;
             background: #feb900; }
+
+.open_pop-up {
+  overflow: hidden; }
