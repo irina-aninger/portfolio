@@ -32,7 +32,7 @@ body
 h1, h2, h3
   font: 50px 'Raleway', sans-serif
   margin: 0 0 70px
-  color: #feb900
+  color: #ffba00
   position: relative
 
 h3
@@ -49,6 +49,7 @@ h4
 
 h2.left
   text-align: left
+  margin-left: -60px
   &:before
     content: ''
     position: absolute
@@ -61,6 +62,7 @@ h2.left
 
 h2.right
   text-align: right
+  margin-right: -60px
   &:after
     content: ''
     position: absolute
@@ -174,47 +176,52 @@ header
       height: 360px
       position: relative
       overflow: hidden
-      box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.32)
+      //box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.28)
+      box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.28)
       &:hover
-        > img
+        img
           filter: blur(4px)
           transform: rotate(10deg) scale(1.5)
         .hidden_desc
           opacity: 1
           &::before
             transform: rotate(75deg) translateX(40%)
-            transition: .2s
+            transition: transform .2s
             transition-delay: .4s
+          .desc
+            opacity: 1
+            transition: opacity .3s
         .links
-          transition: .2s
-          transition-delay: .7s
           bottom: 20px
+          transition: bottom .2s
+          transition-delay: .7s
       img
         width: 100%
         height: auto
         transition: .3s
     .hidden_desc
       position: absolute
+      opacity: 0
+      top: 0
       height: calc(100% - 40px)
       width: calc(100% - 40px)
       background: #272526e6
-      top: 0
       padding: 20px
       overflow: hidden
-      opacity: 0
-      transition: .3s
+      transition: opacity .3s
       &::before
         content: ''
         width: 100%
         height: 500px
-        background: #f7b50180
+        background: #ffba00
         position: absolute
-        transform: rotate(70deg) translateX(100%)
+        transform: rotate(75deg) translateX(100%)
       .title
         font: 40px 'Raleway', sans-serif
         color: #ffba00
       .desc
-        display: none
+        opacity: 0
+        transition: opacity .3s
       .tags
         display: none
       .links
@@ -238,7 +245,32 @@ header
             background: #313131
             color: #feb900
             font-weight: 100
-
+  #more_items
+    grid-column: 1/-1
+    position: relative
+    background: none
+    border: none
+    margin: 50px 0 50px 0
+    &::before
+      content: ''
+      position: absolute
+      margin: auto
+      top: -30px
+      width: 55px
+      height: 55px
+      border-bottom: 2px solid #ffba00
+      border-right: 2px solid #ffba00
+      transform: rotate(45deg)
+    &::after
+      content: ''
+      position: absolute
+      margin: auto
+      top: -10px
+      width: 55px
+      height: 55px
+      border-bottom: 2px solid #ffffff
+      border-right: 2px solid #ffffff
+      transform: rotate(45deg)
 
 #skills_box
   background-color: #272526
@@ -247,7 +279,7 @@ header
     grid-template-columns: 2fr 1fr
     grid-gap: 0 30px
     h2
-      &.right
+      &.left
         grid-column: 1 / -1
     .experience_wrapper
       .experience_item
@@ -259,7 +291,7 @@ header
           padding: 5px 20px
         .desc
           position: relative
-          background: #363636
+          background: #565556
           padding: 20px 20px
           margin-top: 25px
           &::before
@@ -269,10 +301,10 @@ header
             left: 10px
             width: 15px
             height: 15px
-            background: #363636
+            background: #565556
             transform: rotate(45deg)
           ul
-            padding-left: 20px;
+            padding-left: 20px
             li
               position: relative
               &::before
@@ -294,7 +326,7 @@ header
           margin: 5px 0 7px 0
         .progress-bar
           height: 15px
-          border: 1px solid #514323
+          border: 1px solid #ffffff3b
           background: #ffffff03
           overflow: hidden
           position: relative
@@ -303,9 +335,13 @@ header
             width: 0
             background: #ffba00
             height: 100%
+            margin-left: 1px
 
 #contact
   background-color: #313131
+  h2
+    &::after
+      height: 1px
   #feedback_form
     margin-top: 120px
     form
@@ -314,7 +350,7 @@ header
       grid-gap: 60px 30px
       div
         position: relative
-        border-bottom: 1px solid #9c7817
+        border-bottom: 1px solid #ffba00
         &:nth-child(3)
           grid-column: 1 / -1
         &:nth-child(4)
@@ -324,14 +360,18 @@ header
           position: absolute
           font-size: 42px
           color: #ffffff
+          margin-top: -10px
           top: 0
         input
           width: 100%
           background: transparent
           border: none
           height: 70px
+          color: #fff
+          font-size: 30px
+          transition: .3s
           &#submit
-            background: #ffba0085
+            background: #565556
             color: #fff
             font-size: 28px
             text-transform: uppercase
@@ -345,6 +385,24 @@ header
           background: transparent
           border: none
           height: 200px
+          color: #fff
+          font-size: 30px
+          margin-bottom: -15px
+          transition: .3s
+        &.active
+          label
+            font-size: 16px
+            color: #ffffff8a
+            margin-top: -15px
+            transition: .3s
+        &.error
+          border-bottom: 1px solid #ff0404
+          transition: .3s
+          label
+            color: #ff0000
+            transition: .3s
+
+
 
 footer
   background: #272526
@@ -366,8 +424,9 @@ footer
   &.open
     display: block
     .pop-up__wrapper
-      transition-delay: .2s
       transform: translateX(0%)
+      transition: transform .5s
+      transition-delay: .1s
   .pop-up__wrapper
     width: 1200px
     height: 800px
@@ -382,7 +441,7 @@ footer
     grid-template-columns: 1fr 2fr
     overflow: hidden
     transform: translateX(200%)
-    transition: .6s
+    transition: transform .5s
     .close
       position: absolute
       right: 15px
@@ -444,7 +503,7 @@ footer
         ul
           display: grid
           grid-template-columns: repeat(6, 1fr)
-          grid-gap: 0 20px
+          grid-gap: 10px 20px
           padding: 0
           li
             padding: 5px 5px

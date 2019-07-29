@@ -6,28 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b155c468-f9c1-454b-8ac7-6623e3cd7040" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/_main_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/_main_img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/pages/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
@@ -42,31 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="19" selection-end-column="24" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="319">
+              <caret line="280" column="40" selection-start-line="280" selection-start-column="40" selection-end-line="280" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="178" column="10" selection-start-line="178" selection-start-column="10" selection-end-line="178" selection-end-column="10" />
+            <state relative-caret-position="282">
+              <caret line="258" column="17" lean-forward="true" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -74,8 +44,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="299">
+              <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1564407018742" expanded="true" signature="1750:1945" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="161">
               <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
@@ -92,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/fonts.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="368">
               <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
@@ -110,19 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.open-header</find>
-      <find>mobile-menu</find>
-      <find>transform</find>
-      <find>nav</find>
-      <find>О НАС</find>
-      <find>close</find>
-      <find>platform-items</find>
-      <find>club</find>
-      <find>translateX(-15px) rotate(-90deg)</find>
-      <find>fa</find>
-      <find>anima</find>
-      <find>feedback</find>
-      <find>hidden-desc</find>
       <find>#feedback</find>
       <find>section</find>
       <find>contpre</find>
@@ -133,13 +94,26 @@
       <find>skills_wrapper</find>
       <find>more</find>
       <find>work_item__pop-up</find>
-      <find>tags</find>
-      <find>pop-up__wrapper</find>
       <find>progress-bar</find>
       <find>gradient</find>
-      <find>hidden_desc</find>
       <find>eleg</find>
+      <find>pop-up__wrapper</find>
+      <find>tags</find>
+      <find>hidden_desc</find>
+      <find>right</find>
+      <find>gra</find>
+      <find>open</find>
+      <find>h2</find>
+      <find>bar</find>
+      <find>input</find>
+      <find>label</find>
+      <find>photoshopBar</find>
+      <find>conta</find>
+      <find>contac</find>
+      <find>feedback_form</find>
       <find>work_item</find>
+      <find>July 2019</find>
+      <find>work</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,14 +138,14 @@
         <option value="$PROJECT_DIR$/app/sass/fonts.sass" />
         <option value="$PROJECT_DIR$/app/sass/1" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="979" />
-    <option name="width" value="1588" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1549" />
+    <option name="width" value="1018" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -276,11 +250,12 @@
       <workItem from="1558687385114" duration="16143000" />
       <workItem from="1564038638995" duration="21709000" />
       <workItem from="1564124525295" duration="17325000" />
+      <workItem from="1564390227456" duration="18903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178997000" />
+    <option name="totallyTimeSpent" value="198709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +267,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="979" y="0" width="1588" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
@@ -300,8 +275,8 @@
       <window_info content_ui="combo" id="Project" order="2" weight="0.31709743" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3277592" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49881798" visible="true" weight="0.23851204" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="0" visible="true" weight="0.41583055" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49881798" weight="0.23761262" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.501182" side_tool="true" weight="0.32441473" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -311,7 +286,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.32998884" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32995495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -437,20 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/fonts.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/1">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -461,35 +422,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state relative-caret-position="161">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+    <entry file="file://$PROJECT_DIR$/app/sass/fonts.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="178" column="10" selection-start-line="178" selection-start-column="10" selection-end-line="178" selection-end-column="10" />
+        <state relative-caret-position="368">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1564407018742" expanded="true" signature="1750:1945" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="319">
+          <caret line="280" column="40" selection-start-line="280" selection-start-column="40" selection-end-line="280" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="258" column="17" lean-forward="true" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
         </state>
       </provider>
     </entry>

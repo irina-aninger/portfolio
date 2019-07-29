@@ -16,7 +16,7 @@ html(lang=en)
         section#front_banner
             div.img_box: .container: div.txt_block
         section#work_box: .container
-            h2.left My Works
+            h2.right My Works
             .works_items
                 .work_item
                     img(src='../img/work/1.png')
@@ -25,8 +25,14 @@ html(lang=en)
                         p.desc This is the first experience of layout landing page
                         .tags
                             ul
-                                li HTML
-                                li Css
+                                li HTML5
+                                li CSS3
+                                li Pug
+                                li SASS
+                                li Gulp
+                                li JQuery
+                                li WoW
+                                li Slick
                         .links
                             a.more(href='#work_item__pop-up') More
                             a(href='https://irina-aninger.github.io/together/') Go to
@@ -37,23 +43,30 @@ html(lang=en)
                         p.desc Work in this
                         .tags
                             ul
-                                li HTML
-                                li Css
+                                li HTML5
+                                li CSS3
+                                li Pug
+                                li SASS
+                                li JS
+                                li API
+                                li Bootstrap
                         .links
                             a.more(href='#work_item__pop-up') More
                             a(href='https://irina-aninger.github.io/movies/') Go to
                 .work_item
-                    img(src='../img/work/17.png')
+                    img(src='../img/work/3.png')
                     .hidden_desc
-                        p.title Garantiruem
+                        p.title Belkontplus
                         p.desc Work in this
                         .tags
                             ul
-                                li HTML
-                                li Css
+                                li HTML5
+                                li CSS3
+                                li JQuery
+                                li Joomla
                         .links
                             a.more(href='#work_item__pop-up') More
-                            a(href='https://garantiruem.by/') Go to
+                            a(href='http://www.belkontplus.by/') Go to
                 .work_item
                     img(src='../img/work/4.png')
                     .hidden_desc
@@ -91,42 +104,6 @@ html(lang=en)
                             a.more(href='#work_item__pop-up') More
                             a(href='https://www.aristeksystems.com/') Go to
                 .work_item
-                    img(src='../img/work/18.png')
-                    .hidden_desc
-                        p.title Florita
-                        p.desc Work in this
-                        .tags
-                            ul
-                                li HTML
-                                li Css
-                        .links
-                            a.more(href='#work_item__pop-up') More
-                            a(href='https://florita.by/') Go to
-                .work_item
-                    img(src='../img/work/13.png')
-                    .hidden_desc
-                        p.title Ecosoft
-                        p.desc Work in this
-                        .tags
-                            ul
-                                li HTML
-                                li Css
-                        .links
-                            a.more(href='#work_item__pop-up') More
-                            a(href='https://ecosoft.by/') Go to
-                .work_item
-                    img(src='../img/work/15.png')
-                    .hidden_desc
-                        p.title Elegia
-                        p.desc Work in this
-                        .tags
-                            ul
-                                li HTML
-                                li Css
-                        .links
-                            a.more(href='#work_item__pop-up') More
-                            a(href='https://elegiadent.by/') Go to
-                .work_item
                     img(src='../img/work/7.png')
                     .hidden_desc
                         p.title 20dc
@@ -138,7 +115,6 @@ html(lang=en)
                         .links
                             a.more(href='#work_item__pop-up') More
                             a(href='https://20dc.by/') Go to
-                                img(src='../img/link.svg')
                 .work_item
                     img(src='../img/work/8.png')
                     .hidden_desc
@@ -212,6 +188,18 @@ html(lang=en)
                             a.more(href='#work_item__pop-up') More
                             a(href='https://www.darida.by/') Go to
                 .work_item
+                    img(src='../img/work/13.png')
+                    .hidden_desc
+                        p.title Ecosoft
+                        p.desc Work in this
+                        .tags
+                            ul
+                                li HTML
+                                li Css
+                        .links
+                            a.more(href='#work_item__pop-up') More
+                            a(href='https://ecosoft.by/') Go to
+                .work_item
                     img(src='../img/work/14.png')
                     .hidden_desc
                         p.title Ecodar
@@ -223,6 +211,18 @@ html(lang=en)
                         .links
                             a.more(href='#work_item__pop-up') More
                             a(href='https://ecodar.by/') Go to
+                .work_item
+                    img(src='../img/work/15.png')
+                    .hidden_desc
+                        p.title Elegia
+                        p.desc Work in this
+                        .tags
+                            ul
+                                li HTML
+                                li Css
+                        .links
+                            a.more(href='#work_item__pop-up') More
+                            a(href='https://elegiadent.by/') Go to
                 .work_item
                     img(src='../img/work/16.png')
                     .hidden_desc
@@ -236,9 +236,9 @@ html(lang=en)
                             a.more(href='#work_item__pop-up') More
                             a(href='https://www.figurist.ru/') Go to
                 .work_item
-                    img(src='../img/work/3.png')
+                    img(src='../img/work/17.png')
                     .hidden_desc
-                        p.title Belkontplus
+                        p.title Garantiruem
                         p.desc Work in this
                         .tags
                             ul
@@ -246,20 +246,39 @@ html(lang=en)
                                 li Css
                         .links
                             a.more(href='#work_item__pop-up') More
-                            a(href='http://www.belkontplus.by/') Go to
+                            a(href='https://garantiruem.by/') Go to
+                .work_item
+                    img(src='../img/work/18.png')
+                    .hidden_desc
+                        p.title Florita
+                        p.desc Work in this
+                        .tags
+                            ul
+                                li HTML
+                                li Css
+                        .links
+                            a.more(href='#work_item__pop-up') More
+                            a(href='https://florita.by/') Go to
+                button#more_items
         section#skills_box: .container
-            h2.right About Me
+            h2.left About Me
             .experience_wrapper
                 h3 Work Experience
                 .experience_item
                     p.title HTML/CSS/JQuery-coder
                     .desc
                         h4 Seologic
-                        p April 2018 - July 2019
+                        p April 2018 - August 2019
                         ul
-                            li LoremLoremLoremLoremLoremLoremLorem
-                            li LoremLoremLoremLoremLoremLoremLorem
-                            li LoremLoremLoremLoremLoremLoremLorem
+                            li Using HTML
+                            li Using Css
+                            li Using HTML
+                            li Using Css
+                            li Using HTML
+                            li Using Css
+                            li Using Css
+                            li Using Css
+                            li Using Css
             .skills_wrapper
                 h3 Software Skills
                 .skills_item
@@ -292,7 +311,7 @@ html(lang=en)
                         .progress-bar
                             .bar
         section#contact: .container
-            h2.left Contact
+            h2.right Contact
             #feedback_form
                 form(action="#" method="post")
                     div
@@ -317,10 +336,7 @@ html(lang=en)
                         img(src='')
                     .info_col
                         .top_link
-                            a(href='#') Site
-                        .desc Irina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina PetrushenkoIrina Petrushenko
+                            a(href='')
+                        .desc
                             .tags
-                                ul
-                                    li HTML
-                                    li Css
         script(src='/js/common.js')
