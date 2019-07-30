@@ -10,11 +10,28 @@
     @content
 
 @mixin medium
-  @media (max-width: 991px)
+  @media (max-width: 992px)
+    @content
+
+@mixin small
+  @media (max-width: 768px)
+    @content
+
+@mixin xs_small
+  @media (max-width: 576px)
     @content
 //END MIXIN
 
 //ANIMATION
+@keyframes moreCircle
+  from
+    border: 1px solid #ffffff
+  50%
+    border: 1px solid #ffffff
+    box-shadow: 0 0 5px #ffffff
+    transform: scale(1.05)
+  to
+    border: 1px solid #ffffff
 //END ANIMATION
 
 
@@ -29,16 +46,33 @@ body
   margin: 0
   position: relative
 
+button
+  &:focus
+    outline: none
+
+input
+  &:focus
+    outline: none
+
+textarea
+  &:focus
+    outline: none
+
 h1, h2, h3
   font: 50px 'Raleway', sans-serif
   margin: 0 0 70px
   color: #ffba00
   position: relative
+  @include xs_small
+    font: 38px 'Raleway', sans-serif
+    margin: 0 0 40px
 
 h3
   font: 100 24px 'Roboto', sans-serif
   text-transform: uppercase
   margin: 0 0 40px
+  @include xs_small
+    margin: 0 0 30px
 
 h4
   color: #ffba00
@@ -88,7 +122,11 @@ section
     width: 960px
   @include medium
     width: 720px
-
+  @include small
+    width: 540px
+  @include xs_small
+    width: calc(100% - 30px)
+    padding: 0 15px
 
 a
   text-decoration: none
@@ -124,6 +162,8 @@ header
     nav
       float: right
       width: 60%
+      @include medium
+        display: none
       ul
         display: flex
         float: right
@@ -170,14 +210,22 @@ header
   .works_items
     display: grid
     grid-template-columns: repeat(3, 1fr)
-    grid-gap: 30px 30px
+    grid-gap: 40px 40px
+    @include medium
+      grid-template-columns: repeat(2, 1fr)
+    @include small
+      grid-template-columns: repeat(1, 1fr)
     .work_item
       width: 100%
-      height: 360px
+      height: 353px
       position: relative
       overflow: hidden
-      //box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.28)
       box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.28)
+      display: none
+      @include medium
+        height: 340px
+      &.visible
+        display: block
       &:hover
         img
           filter: blur(4px)
@@ -250,27 +298,44 @@ header
     position: relative
     background: none
     border: none
-    margin: 50px 0 50px 0
+    margin: 50px 0 0 0
+    width: 100px
+    height: 60px
+    justify-self: center
+    cursor: pointer
+    @include xs_small
+      margin: 25px 0 0 0
+    &.open
+      transform: rotate(180deg)
     &::before
       content: ''
       position: absolute
-      margin: auto
-      top: -30px
       width: 55px
       height: 55px
-      border-bottom: 2px solid #ffba00
-      border-right: 2px solid #ffba00
-      transform: rotate(45deg)
+      left: 0
+      right: 0
+      top: 0
+      margin: auto
+      border: 1px solid #fff
+      border-radius: 50%
+      animation: moreCircle 2s infinite ease-in-out
     &::after
       content: ''
       position: absolute
+      width: 15px
+      height: 15px
+      left: 0
+      right: 0
+      top: 17px
       margin: auto
-      top: -10px
-      width: 55px
-      height: 55px
-      border-bottom: 2px solid #ffffff
-      border-right: 2px solid #ffffff
+      border-bottom: 1px solid #fff
+      border-right: 1px solid #fff
       transform: rotate(45deg)
+    &:hover
+      &::before
+        border: 1px solid #ffba00
+        box-shadow: 0 0 10px #ffba00
+        animation: none
 
 #skills_box
   background-color: #272526
@@ -278,10 +343,13 @@ header
     display: grid
     grid-template-columns: 2fr 1fr
     grid-gap: 0 30px
+    @include medium
+      grid-template-columns: 1fr
     h2
       &.left
         grid-column: 1 / -1
     .experience_wrapper
+      margin-bottom: 50px
       .experience_item
         .title
           background: #ffba00
@@ -335,7 +403,6 @@ header
             width: 0
             background: #ffba00
             height: 100%
-            margin-left: 1px
 
 #contact
   background-color: #313131
@@ -348,6 +415,9 @@ header
       display: grid
       grid-template-columns: 1fr 1fr
       grid-gap: 60px 30px
+      @include xs_small
+        grid-template-columns: 1fr
+        grid-gap: 30px 30px
       div
         position: relative
         border-bottom: 1px solid #ffba00
@@ -362,6 +432,8 @@ header
           color: #ffffff
           margin-top: -10px
           top: 0
+          @include xs_small
+            font-size: 28px
         input
           width: 100%
           background: transparent
@@ -370,6 +442,8 @@ header
           color: #fff
           font-size: 30px
           transition: .3s
+          @include xs_small
+            height: 45px
           &#submit
             background: #565556
             color: #fff
@@ -425,7 +499,7 @@ footer
     display: block
     .pop-up__wrapper
       transform: translateX(0%)
-      transition: transform .5s
+      transition: transform .6s
       transition-delay: .1s
   .pop-up__wrapper
     width: 1200px
@@ -441,7 +515,7 @@ footer
     grid-template-columns: 1fr 2fr
     overflow: hidden
     transform: translateX(200%)
-    transition: transform .5s
+    transition: transform .6s
     .close
       position: absolute
       right: 15px

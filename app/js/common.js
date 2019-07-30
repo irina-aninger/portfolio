@@ -2,6 +2,26 @@
 // ***** End scroll to anchor *****
 
 
+//***** Load More Work Item *****
+let workItem = document.querySelectorAll('.work_item'),
+    moreItem = document.querySelector('#more_items');
+
+const visibleItem = () => {
+    for (let i = 0; i < 9; i++) {
+        workItem[i].className += ' visible';
+    }
+};
+visibleItem();
+
+const loadMore = () => {
+    for (let i = 9; i < workItem.length; i++) {
+        workItem[i].classList.toggle('visible');
+    }
+    moreItem.classList.toggle('open');
+};
+moreItem.addEventListener('click', loadMore);
+//***** End Load More Work Item *****
+
 //***** Pop-Up *****
 let moreBtn = document.querySelectorAll('.work_item .more'),
     popUp = document.querySelector('#work_item__pop-up');
