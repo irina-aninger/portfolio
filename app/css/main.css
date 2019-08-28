@@ -873,14 +873,14 @@ footer {
       -webkit-transform: translateX(0%);
           -ms-transform: translateX(0%);
               transform: translateX(0%);
-      -webkit-transition-delay: .3s;
-           -o-transition-delay: .3s;
-              transition-delay: .3s;
       -webkit-transition: -webkit-transform .6s;
       transition: -webkit-transform .6s;
       -o-transition: transform .6s;
       transition: transform .6s;
-      transition: transform .6s, -webkit-transform .6s; }
+      transition: transform .6s, -webkit-transform .6s;
+      -webkit-transition-delay: .4s;
+           -o-transition-delay: .4s;
+              transition-delay: .4s; }
   #work_item__pop-up .pop-up__wrapper {
     width: 1200px;
     height: 800px;

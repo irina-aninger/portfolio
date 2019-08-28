@@ -5,109 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b155c468-f9c1-454b-8ac7-6623e3cd7040" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Roboto.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Roboto.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Roboto.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotoblack.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotoblack.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotoblack.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotoblackitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotoblackitalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotoblackitalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotobold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotobold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotobold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotobolditalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotobolditalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotobolditalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotoitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotoitalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotoitalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotolight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotolight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotolight.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotolightitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotolightitalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotolightitalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotomedium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotomedium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotomedium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotomediumitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotomediumitalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/Robotomediumitalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayblack.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayblack.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayblack.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayblackitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayblackitalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayblackitalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaybold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaybold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaybold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaybolditalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaybolditalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaybolditalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextrabold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextrabold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextrabold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextrabolditalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextrabolditalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextrabolditalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextralight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextralight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextralight.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextralightitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextralightitalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayextralightitalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayitalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayitalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaylight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaylight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaylight.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaylightitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaylightitalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaylightitalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaymedium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaymedium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaymedium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaymediumitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaymediumitalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewaymediumitalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayregular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayregular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/ralewayregular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/_main_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/main_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/main_img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/work/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/work_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/1" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -120,20 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="100" selection-start-line="7" selection-start-column="100" selection-end-line="7" selection-end-column="100" />
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -142,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="832" column="28" selection-start-line="832" selection-start-column="28" selection-end-line="832" selection-end-column="28" />
+              <caret line="883" column="28" selection-start-line="883" selection-start-column="28" selection-end-line="883" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -189,7 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#skills_box</find>
       <find>work</find>
       <find>submit</find>
       <find>rotate(135deg)</find>
@@ -219,6 +120,7 @@
       <find>h1</find>
       <find>animation</find>
       <find>h1Before</find>
+      <find>//</find>
     </findStrings>
     <replaceStrings>
       <replace>showItem</replace>
@@ -265,9 +167,9 @@
         <option value="$PROJECT_DIR$/app/sass/fonts.sass" />
         <option value="$PROJECT_DIR$/app/js/items.js" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
-        <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
         <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
       </list>
     </option>
   </component>
@@ -379,12 +281,12 @@
       <workItem from="1564038638995" duration="21709000" />
       <workItem from="1564124525295" duration="17325000" />
       <workItem from="1564390227456" duration="30892000" />
-      <workItem from="1566748713629" duration="52308000" />
+      <workItem from="1566748713629" duration="52749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294660000" />
+    <option name="totallyTimeSpent" value="295101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,24 +514,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="100" selection-start-line="7" selection-start-column="100" selection-end-line="7" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="832" column="28" selection-start-line="832" selection-start-column="28" selection-end-line="832" selection-end-column="28" />
+          <caret line="883" column="28" selection-start-line="883" selection-start-column="28" selection-end-line="883" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
