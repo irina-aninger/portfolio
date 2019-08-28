@@ -1,60 +1,24 @@
-/*! HTML5 Boilerplate v7.0.1 | MIT License | https://html5boilerplate.com/ */
-/* main.css 1.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team. */
-/* ==========================================================================
- * Base styles: opinionated defaults
- * ========================================================================== */
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4; }
+@font-face {
+  font-family: 'Roboto';
+  src: local("Roboto Thin"), local("Roboto-Thin"), url("../fonts/Robotothin.woff2") format("woff2"), url("../fonts/Robotothin.woff") format("woff"), url("../fonts/Robotothin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design. */
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none; }
-::selection {
-  background: #b3d4fc;
-  text-shadow: none; }
+@font-face {
+  font-family: 'Raleway';
+  src: local("Raleway Thin"), local("Raleway-Thin"), url("../fonts/ralewaythin.woff2") format("woff2"), url("../fonts/ralewaythin.woff") format("woff"), url("../fonts/ralewaythin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
 
-/*
- * A better looking default horizontal rule */
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https: */
-
-/*
- * Remove default fieldset styles. */
-
-/*
- * Allow only vertical resizing of textareas. */
-
-body::-webkit-scrollbar {
-  width: 0.4em; }
-
-body::-webkit-scrollbar-track {
-  background-color: #212121; }
-
-body::-webkit-scrollbar-thumb {
-  background-color: #3DCAB3;
-  -webkit-border-radius: 20px;
-          border-radius: 20px; }
+@font-face {
+  font-family: 'RalewayBold';
+  src: local("Raleway SemiBold"), local("Raleway-SemiBold"), url("../fonts/ralewaysemibold.woff2") format("woff2"), url("../fonts/ralewaysemibold.woff") format("woff"), url("../fonts/ralewaysemibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
 
 body {
-  font: normal 16px/1.4em 'open sans', sans-serif;
-  color: #20303c;
+  font: normal 16px/1.4em 'Roboto', sans-serif;
+  color: white;
   letter-spacing: 0.04em;
   line-height: 1.5;
   background-color: #f9fafa;
@@ -64,46 +28,41 @@ body {
   position: relative; }
 
 h1 {
-  font-family: 'Times New Roman', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  color: #000; }
+  font: 50px 'Raleway', sans-serif;
+  margin: 0 0 70px;
+  color: #ffba00;
+  position: relative; }
+  @media (max-width: 576px) {
+    h1 {
+      font: 38px 'Raleway', sans-serif;
+      margin: 0 0 40px; } }
 
-p {
-  font-size: 15px;
-  letter-spacing: normal; }
+section {
+  height: 100%;
+  padding: 70px 0;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.28);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.28); }
 
 a {
   text-decoration: none;
-  -webkit-transition: color .4s;
-  -o-transition: color .4s;
-  transition: color .4s;
   cursor: pointer;
-  color: #fff; }
+  color: white; }
   a:hover {
-    color: #3ECCB5; }
+    color: #ffba00; }
 
-h1 {
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  font: 119px 'Times New Roman', sans-serif;
-  letter-spacing: 0.06em;
-  font-weight: bold;
-  margin: 0;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-name: fadeIn;
-          animation-name: fadeIn; }
+header {
+  position: fixed;
+  width: 100%;
+  background: rgba(29, 29, 29, 0.5);
+  padding: 20px 0;
+  z-index: 1000;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+  header:hover {
+    background: rgba(29, 29, 29, 0.7); }
 
-@media only screen and (max-width: 992px) {
-  h1 {
-    font: 90px 'Times New Roman', sans-serif; } }
-
-@media only screen and (max-width: 768px) {
-  h1 {
-    font: 64px 'Times New Roman', sans-serif; } }
-
-@media only screen and (max-width: 420px) {
-  h1 {
-    font: 52px 'Times New Roman', sans-serif; } }
+footer {
+  background: #1c1b1d;
+  padding: 40px 0; }
