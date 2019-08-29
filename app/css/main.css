@@ -744,95 +744,8 @@ header {
                 transition-delay: .4s;
         width: 80%; }
 
-#contact {
-  background-color: #212022; }
-  #contact #feedback_form {
-    margin-top: 120px; }
-    #contact #feedback_form form {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 60px 30px; }
-      @media (max-width: 576px) {
-        #contact #feedback_form form {
-          grid-template-columns: 1fr;
-          grid-gap: 30px 30px; } }
-      #contact #feedback_form form div {
-        position: relative;
-        border-bottom: 1px solid #ffba00; }
-        #contact #feedback_form form div:nth-child(3) {
-          grid-column: 1 / -1; }
-        #contact #feedback_form form div:nth-child(4) {
-          grid-column: 1 / -1;
-          border-bottom: none; }
-        #contact #feedback_form form div label {
-          position: absolute;
-          font-size: 42px;
-          color: white;
-          margin-top: -10px;
-          top: 0; }
-          @media (max-width: 576px) {
-            #contact #feedback_form form div label {
-              font-size: 28px; } }
-        #contact #feedback_form form div input {
-          width: 100%;
-          background: transparent;
-          border: none;
-          height: 70px;
-          color: white;
-          font-size: 30px;
-          -webkit-transition: .3s;
-          -o-transition: .3s;
-          transition: .3s; }
-          @media (max-width: 576px) {
-            #contact #feedback_form form div input {
-              height: 45px; } }
-          #contact #feedback_form form div input#submit {
-            background: #212022;
-            text-transform: uppercase;
-            cursor: pointer;
-            -webkit-transition: .3s;
-            -o-transition: .3s;
-            transition: .3s;
-            border: 1px solid #ffffff;
-            font: 32px 'Roboto', sans-serif;
-            font-weight: 100;
-            color: white; }
-            #contact #feedback_form form div input#submit:hover {
-              color: #ffba00;
-              border: 1px solid #ffba00; }
-        #contact #feedback_form form div textarea {
-          width: 100%;
-          background: transparent;
-          border: none;
-          height: 200px;
-          color: white;
-          font-size: 30px;
-          margin-bottom: -15px;
-          -webkit-transition: .3s;
-          -o-transition: .3s;
-          transition: .3s; }
-        #contact #feedback_form form div.active label {
-          font-size: 16px;
-          color: rgba(255, 255, 255, 0.54);
-          margin-top: -15px;
-          -webkit-transition: .3s;
-          -o-transition: .3s;
-          transition: .3s; }
-          #contact #feedback_form form div.active label[for="message"] {
-            margin-top: -35px; }
-        #contact #feedback_form form div.error {
-          border-bottom: 1px solid #ff0404;
-          -webkit-transition: .3s;
-          -o-transition: .3s;
-          transition: .3s; }
-          #contact #feedback_form form div.error label {
-            color: red;
-            -webkit-transition: .3s;
-            -o-transition: .3s;
-            transition: .3s; }
-
 footer {
-  background: #1c1b1d;
+  background-color: #212022;
   padding: 40px 0; }
   footer .container {
     display: grid;
@@ -873,14 +786,12 @@ footer {
       -webkit-transform: translateX(0%);
           -ms-transform: translateX(0%);
               transform: translateX(0%);
-      -webkit-transition: -webkit-transform .6s;
-      transition: -webkit-transform .6s;
-      -o-transition: transform .6s;
-      transition: transform .6s;
-      transition: transform .6s, -webkit-transform .6s;
-      -webkit-transition-delay: .4s;
-           -o-transition-delay: .4s;
-              transition-delay: .4s; }
+      -webkit-transition: .6s;
+      -o-transition: .6s;
+      transition: .6s;
+      -webkit-transition-delay: .2s;
+           -o-transition-delay: .2s;
+              transition-delay: .2s; }
   #work_item__pop-up .pop-up__wrapper {
     width: 1200px;
     height: 800px;
@@ -897,11 +808,12 @@ footer {
     -webkit-transform: translateX(200%);
         -ms-transform: translateX(200%);
             transform: translateX(200%);
-    -webkit-transition: -webkit-transform .6s;
-    transition: -webkit-transform .6s;
-    -o-transition: transform .6s;
-    transition: transform .6s;
-    transition: transform .6s, -webkit-transform .6s; }
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+    -webkit-transition-delay: .2s;
+         -o-transition-delay: .2s;
+            transition-delay: .2s; }
     #work_item__pop-up .pop-up__wrapper .close {
       position: absolute;
       right: 15px;

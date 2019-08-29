@@ -109,31 +109,31 @@ let closePopUp = (closeBtn) => {
 //***** Visible Element *****
 
 //***** Contact Form *****
-let input = document.querySelectorAll('input'),
-    textarea = document.querySelectorAll('textarea'),
-    submitBtn = document.querySelector('#submit');
-
-let focusInput = item => {
-    item.addEventListener('focus', function () {
-        item.parentElement.className = 'active';
-    });
-
-    item.addEventListener('focusout', function () {
-        if (item.value === '') item.parentElement.className = '';
-    });
-};
-
-input.forEach(focusInput);
-textarea.forEach(focusInput);
-
-let validate = item => {
-    (item.value === '') ? item.parentElement.className = 'error' : submitBtn.className = '';
-};
-
-submitBtn.addEventListener('click', function () {
-    input.forEach(validate);
-    textarea.forEach(validate);
-});
+// let input = document.querySelectorAll('input'),
+//     textarea = document.querySelectorAll('textarea'),
+//     submitBtn = document.querySelector('#submit');
+//
+// let focusInput = item => {
+//     item.addEventListener('focus', function () {
+//         item.parentElement.className = 'active';
+//     });
+//
+//     item.addEventListener('focusout', function () {
+//         if (item.value === '') item.parentElement.className = '';
+//     });
+// };
+//
+// input.forEach(focusInput);
+// textarea.forEach(focusInput);
+//
+// let validate = item => {
+//     (item.value === '') ? item.parentElement.className = 'error' : submitBtn.className = '';
+// };
+//
+// submitBtn.addEventListener('click', function () {
+//     input.forEach(validate);
+//     textarea.forEach(validate);
+// });
 
 //***** Animation with scroll *****
 let title       = document.querySelectorAll('h2'),

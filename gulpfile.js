@@ -115,7 +115,6 @@ gulp.task('img', function() {
 gulp.task('prebuild', async function() {
 
     var buildCss = gulp.src([ // Переносим библиотеки в продакшен
-        'app/css/libs.css',
         'app/css/main.css'
     ])
         .pipe(gulp.dest('dist/css'))

@@ -620,83 +620,84 @@ header
               transition-delay: .4s
               width: 80%
 
-#contact
-  background-color: rgb(33, 32, 34)
-  #feedback_form
-    margin-top: 120px
-    form
-      display: grid
-      grid-template-columns: 1fr 1fr
-      grid-gap: 60px 30px
-      @include xs_small
-        grid-template-columns: 1fr
-        grid-gap: 30px 30px
-      div
-        position: relative
-        border-bottom: 1px solid rgb(255, 186, 0)
-        &:nth-child(3)
-          grid-column: 1 / -1
-        &:nth-child(4)
-          grid-column: 1 / -1
-          border-bottom: none
-        label
-          @include absolute
-          font-size: 42px
-          @include white
-          margin-top: -10px
-          top: 0
-          @include xs_small
-            font-size: 28px
-        input
-          @include full_width
-          background: transparent
-          border: none
-          height: 70px
-          @include white
-          font-size: 30px
-          transition: .3s
-          @include xs_small
-            height: 45px
-          &#submit
-            background: rgb(33, 32, 34)
-            text-transform: uppercase
-            cursor: pointer
-            transition: .3s
-            border: 1px solid #ffffff
-            font: 32px 'Roboto', sans-serif
-            font-weight: 100
-            @include white
-            &:hover
-              color: rgb(255, 186, 0)
-              border: 1px solid rgb(255, 186, 0)
-        textarea
-          @include full_width
-          background: transparent
-          border: none
-          height: 200px
-          @include white
-          font-size: 30px
-          margin-bottom: -15px
-          transition: .3s
-        &.active
-          label
-            font-size: 16px
-            color: rgba(255, 255, 255, 0.54)
-            margin-top: -15px
-            transition: .3s
-            &[for="message"]
-              margin-top: -35px
-        &.error
-          border-bottom: 1px solid rgb(255, 4, 4)
-          transition: .3s
-          label
-            color: rgb(255, 0, 0)
-            transition: .3s
+//#contact
+//  background-color: rgb(33, 32, 34)
+//  #feedback_form
+//    margin-top: 120px
+//    form
+//      display: grid
+//      grid-template-columns: 1fr 1fr
+//      grid-gap: 60px 30px
+//      @include xs_small
+//        grid-template-columns: 1fr
+//        grid-gap: 30px 30px
+//      div
+//        position: relative
+//        border-bottom: 1px solid rgb(255, 186, 0)
+//        &:nth-child(3)
+//          grid-column: 1 / -1
+//        &:nth-child(4)
+//          grid-column: 1 / -1
+//          border-bottom: none
+//        label
+//          @include absolute
+//          font-size: 42px
+//          @include white
+//          margin-top: -10px
+//          top: 0
+//          @include xs_small
+//            font-size: 28px
+//        input
+//          @include full_width
+//          background: transparent
+//          border: none
+//          height: 70px
+//          @include white
+//          font-size: 30px
+//          transition: .3s
+//          @include xs_small
+//            height: 45px
+//          &#submit
+//            background: rgb(33, 32, 34)
+//            text-transform: uppercase
+//            cursor: pointer
+//            transition: .3s
+//            border: 1px solid #ffffff
+//            font: 32px 'Roboto', sans-serif
+//            font-weight: 100
+//            @include white
+//            &:hover
+//              color: rgb(255, 186, 0)
+//              border: 1px solid rgb(255, 186, 0)
+//        textarea
+//          @include full_width
+//          background: transparent
+//          border: none
+//          height: 200px
+//          @include white
+//          font-size: 30px
+//          margin-bottom: -15px
+//          transition: .3s
+//        &.active
+//          label
+//            font-size: 16px
+//            color: rgba(255, 255, 255, 0.54)
+//            margin-top: -15px
+//            transition: .3s
+//            &[for="message"]
+//              margin-top: -35px
+//        &.error
+//          border-bottom: 1px solid rgb(255, 4, 4)
+//          transition: .3s
+//          label
+//            color: rgb(255, 0, 0)
+//            transition: .3s
 
 
 
 footer
-  background: rgb(28, 27, 29)
+  //background: rgb(28, 27, 29)
+  background-color: rgb(33, 32, 34)
   padding: 40px 0
   .container
     display: grid
@@ -728,8 +729,8 @@ footer
     display: block
     .pop-up__wrapper
       transform: translateX(0%)
-      transition: transform .6s
-      transition-delay: .4s
+      transition: .6s
+      transition-delay: .2s
   .pop-up__wrapper
     width: 1200px
     height: 800px
@@ -744,7 +745,8 @@ footer
     grid-template-columns: 1fr 2fr
     overflow: hidden
     transform: translateX(200%)
-    transition: transform .6s
+    transition: .6s
+    transition-delay: .2s
     .close
       @include absolute
       right: 15px

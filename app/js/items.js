@@ -5,14 +5,14 @@ dataItem = {
         'link': 'https://irina-aninger.github.io/together/',
         'desc': 'Landing page was performed using Gulp. For styles used SASS. Animation is done with wow.js and animate.css',
         'tags': ['HTML', 'CSS', 'SASS', 'Gulp', 'JQuery'],
-        'image': './img/work/1_front.png'
+        'image': './img/work/1_front.jpg'
     },
     'kinopoisk': {
         'title': 'Kinopoisk',
         'link': 'https://irina-aninger.github.io/movies/',
         'desc': 'The project is executed using TMDb API and JavaScript. Bootstrap and CSS3 were used in the development of the layout.',
         'tags': ['HTML', 'CSS', 'JS', 'API', 'Bootstrap'],
-        'image': './img/work/2_front.png'
+        'image': './img/work/2_front.jpg'
     },
     'garantiruem': {
         'title': 'garantiruem',
@@ -28,7 +28,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'Bitrix', 'Bootstrap'],
-        'image': './img/work/3_front.png'
+        'image': './img/work/3_front.jpg'
     },
     'gradient': {
         'title': 'Gradient',
@@ -43,7 +43,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'MODX'],
-        'image': './img/work/4_front.png'
+        'image': './img/work/4_front.jpg'
     },
     'belkontplus': {
         'title': 'Belkontplus',
@@ -56,7 +56,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'Slick Slider', 'Joomla'],
-        'image': './img/work/5_front.png'
+        'image': './img/work/5_front.jpg'
     },
     'eurokupe': {
         'title': 'Eurokupe',
@@ -69,7 +69,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'Joomla'],
-        'image': './img/work/6_front.png'
+        'image': './img/work/6_front.jpg'
     },
     '20dc': {
         'title': '20dc',
@@ -82,7 +82,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'WordPress'],
-        'image': './img/work/8_front.png'
+        'image': './img/work/8_front.jpg'
     },
     'ecosoft': {
         'title': 'Ecosoft',
@@ -100,7 +100,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'MODX'],
-        'image': './img/work/15_front.png'
+        'image': './img/work/15_front.jpg'
     },
     'ecodar': {
         'title': 'Ecodar',
@@ -116,7 +116,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'WordPress'],
-        'image': './img/work/16_front.png'
+        'image': './img/work/16_front.jpg'
     },
     'elegiadent': {
         'title': 'Elegiadent',
@@ -128,7 +128,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'Bitrix'],
-        'image': './img/work/17_front.png'
+        'image': './img/work/17_front.jpg'
     },
     'florita': {
         'title': 'Florita',
@@ -145,7 +145,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'MODX'],
-        'image': './img/work/18_front.png'
+        'image': './img/work/18_front.jpg'
     },
     'gold': {
         'title': 'Золотая подкова',
@@ -160,7 +160,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'MODX'],
-        'image': './img/work/20_front.png'
+        'image': './img/work/20_front.jpg'
     },
     'wealth': {
         'title': 'Wealth',
@@ -173,7 +173,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'MODX'],
-        'image': './img/work/21_front.png'
+        'image': './img/work/21_front.jpg'
     },
     'transfer-minsk': {
         'title': 'Transfer Minsk',
@@ -186,7 +186,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'MODX'],
-        'image': './img/work/22_front.png'
+        'image': './img/work/22_front.jpg'
     },
     'rcompany': {
         'title': 'Rcompany',
@@ -198,7 +198,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS'],
-        'image': './img/work/24_front.png'
+        'image': './img/work/24_front.jpg'
     },
     'homsair': {
         'title': 'Homsair',
@@ -209,7 +209,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'PHP', 'Bitrix'],
-        'image': './img/work/31_front.png'
+        'image': './img/work/31_front.jpg'
     },
     'anbosta': {
         'title': 'Anbosta',
@@ -221,7 +221,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'Joomla'],
-        'image': './img/work/32_front.png'
+        'image': './img/work/32_front.jpg'
     },
     'hmelnov': {
         'title': 'Hmelnov',
@@ -232,7 +232,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JS', 'Joomla'],
-        'image': './img/work/33_front.png'
+        'image': './img/work/33_front.jpg'
     },
     'inoxtrade': {
         'title': 'Inoxtrade',
@@ -245,7 +245,7 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JS', 'Joomla'],
-        'image': './img/work/34_front.png'
+        'image': './img/work/34_front.jpg'
     },
     'ph2': {
         'title': 'Ph2',
@@ -256,6 +256,6 @@ dataItem = {
         </ul>
         `,
         'tags': ['HTML', 'CSS', 'JQuery', 'JS', 'PHP', 'Bitrix'],
-        'image': './img/work/35_front.png'
+        'image': './img/work/35_front.jpg'
     }
 };
