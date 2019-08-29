@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b155c468-f9c1-454b-8ac7-6623e3cd7040" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,14 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="111" column="49" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="96" column="2" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -64,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/items.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
@@ -112,17 +102,17 @@
       <find>contact</find>
       <find>a(</find>
       <find>pop-up__wrapper</find>
-      <find>.png</find>
       <find>pop</find>
       <find>front_banner</find>
+      <find>.png</find>
     </findStrings>
     <replaceStrings>
       <replace>showItem</replace>
       <replace>CSS</replace>
       <replace>./img</replace>
-      <replace>.jpg</replace>
       <replace>&amp;::before</replace>
       <replace>section</replace>
+      <replace>.jpg</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -161,11 +151,11 @@
         <option value="$PROJECT_DIR$/app/sass/fonts.sass" />
         <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/../irina-aninger.github.io/portfolio/index.html" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/js/items.js" />
         <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
       </list>
     </option>
   </component>
@@ -277,12 +267,12 @@
       <workItem from="1564038638995" duration="21709000" />
       <workItem from="1564124525295" duration="17325000" />
       <workItem from="1564390227456" duration="30892000" />
-      <workItem from="1566748713629" duration="55082000" />
+      <workItem from="1566748713629" duration="55289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297434000" />
+    <option name="totallyTimeSpent" value="297641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="158" column="43" lean-forward="true" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -520,20 +503,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="111" column="49" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/items.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="200" column="42" lean-forward="true" selection-start-line="200" selection-start-column="42" selection-end-line="200" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="158" column="43" lean-forward="true" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="96" column="2" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
         </state>
       </provider>
     </entry>

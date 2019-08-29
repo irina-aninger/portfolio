@@ -1,13 +1,3 @@
-// function include(url) {
-//     let script = document.createElement('script');
-//     script.src = url;
-//     document.getElementsByTagName('footer')[0].appendChild(script);
-// }
-//
-// include("./js/items.js");
-
-// ***** Scroll to anchor *****
-
 // ***** Show work items *****
 let workItem = document.querySelectorAll('.work_item'),
     loadItem = document.querySelector('#more_items');
@@ -105,8 +95,6 @@ let closePopUp = (closeBtn) => {
         document.querySelector('body').className = '';
     })
 };
-
-//***** Visible Element *****
 
 //***** Contact Form *****
 // let input = document.querySelectorAll('input'),
