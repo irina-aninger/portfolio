@@ -73,6 +73,28 @@
     height: 80%
   to
     height: 5%
+
+//@keyframes contact
+//  from
+//    opacity: 0
+//    transform: translateX(-30px)
+//  50%
+//    opacity: 1
+//    transform: translateX(0px)
+//  to
+//    opacity: 0
+//    transform: translateX(-30px)
+
+@keyframes contact
+  from
+    //opacity: 1
+    transform: translateX(0px)
+  50%
+    //opacity: 0
+    transform: translateX(-10px)
+  to
+    //opacity: 1
+    transform: translateX(0px)
 //END ANIMATION
 
 
@@ -246,7 +268,7 @@ li
   list-style: none
 
 header
-  position: fixed
+  position: absolute
   @include full_width
   background: rgba(29, 29, 29, 0.5)
   padding: 20px 0
@@ -255,6 +277,8 @@ header
   &.active
     padding: 0 0
     background: rgba(211, 160, 4, 0.85)
+    ul
+      margin: 10px 0
     &:hover
       background: rgba(211, 160, 4, 0.95)
       nav
@@ -271,9 +295,9 @@ header
   &:hover
     background: rgba(29, 29, 29, 0.7)
   .container
-    display: flex
+    display: grid
+    grid-template-columns: 1fr 1fr
     .logo
-      width: 40%
       font-size: 32px
       line-height: 1
       text-transform: uppercase
@@ -282,8 +306,6 @@ header
         span
           font-family: 'RalewayBold',sans-serif
     nav
-      float: right
-      width: 60%
       @include medium
         display: none
       ul
@@ -494,6 +516,7 @@ header
 
 #skills_box
   background-color: rgb(38, 37, 39)
+  margin-bottom: 60px
   .container
     display: grid
     grid-template-columns: 2fr 1fr
@@ -530,6 +553,7 @@ header
             padding-left: 20px
             li
               position: relative
+              padding-bottom: 5px
               &::before
                 content: ''
                 @include absolute
@@ -540,6 +564,43 @@ header
                 border-top: 1px solid rgb(255, 186, 0)
                 border-left: 1px solid rgb(255, 186, 0)
                 transform: rotate(135deg)
+        .text_about
+          margin-top: 80px
+          ul
+            padding-left: 20px
+            li
+              position: relative
+              padding-bottom: 5px
+              &::before
+                content: ''
+                position: absolute
+                left: -20px
+                top: 9px
+                width: 5px
+                height: 5px
+                border-top: 1px solid #ffba00
+                border-left: 1px solid #ffba00
+                transform: rotate(135deg)
+            &.tags
+              display: grid
+              grid-template-columns: repeat(5, 1fr)
+              grid-gap: 25px
+              padding-left: 0
+              margin-top: 30px
+              margin-right: 50px
+              margin-left: -20px
+              li
+                text-align: center
+                padding: 5px 0
+                border: 1px solid #ffba00
+                background: rgba(255, 255, 255, 0.01)
+                cursor: pointer
+                &::before
+                  content: none
+                &:hover
+                  background: #ffba00
+                  color: #000
+                  font-weight: 600
     .skills_wrapper
       .skills_item
         margin-bottom: 80px
@@ -696,26 +757,44 @@ header
 
 
 footer
-  //background: rgb(28, 27, 29)
-  background-color: rgb(33, 32, 34)
-  padding: 40px 0
+  background-color: rgb(28, 27, 29)
+  padding: 0
+  position: fixed
+  bottom: 0
+  width: 100%
   .container
     display: grid
-    grid-template-columns: 4fr 1fr
+    grid-template-columns: 2fr 1fr
     align-items: center
-    .copyright
+    .contact_info
       font-size: 20px
-    .soc_link
       display: grid
-      grid-template-columns: repeat(4, 1fr)
-      margin: 0
+      grid-template-columns: 1fr 1fr
+      margin: 15px 0
+      padding: 0
+      li
+        display: grid
+        grid-template-columns: 1fr 12fr
+        grid-gap: 15px
+        align-items: center
+        img
+          transition: transform .3s
+        &:hover
+          img
+            animation: contact 1.5s infinite ease-in-out
+    .soc_link
+      display: flex
+      justify-content: flex-end
       padding: 0
       text-align: right
-      height: 35px
+      height: 30px
+      margin: 15px 0
+      li
+        padding-left: 15px
       img
         transition: .2s
         &:hover
-          transform: scale(1.2) rotate(30deg)
+          transform: scale(1.1) rotate(20deg)
 
 #work_item__pop-up
   display: none

@@ -4,7 +4,19 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b155c468-f9c1-454b-8ac7-6623e3cd7040" name="Default Changelist" comment="" />
+    <list default="true" id="b155c468-f9c1-454b-8ac7-6623e3cd7040" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/skype.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/skype.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/vk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/pages/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,35 +31,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="158" column="43" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2908">
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="201">
+              <caret line="183" column="46" selection-start-line="183" selection-start-column="46" selection-end-line="183" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+        <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="150" column="81" selection-start-line="150" selection-start-column="81" selection-end-line="150" selection-end-column="81" />
+            <state relative-caret-position="295">
+              <caret line="763" column="13" lean-forward="true" selection-start-line="763" selection-start-column="13" selection-end-line="763" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/call.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/email.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/github.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/linkedin.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/skype.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/vk.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="442">
+              <caret line="162" selection-start-line="162" selection-end-line="162" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="150" column="81" selection-start-line="150" selection-start-column="81" selection-end-line="150" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -64,15 +106,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>textBanner</find>
-      <find>Arrow</find>
-      <find>img_box</find>
-      <find>fill</find>
-      <find>32</find>
-      <find>530</find>
-      <find>Integration these pages with CMS</find>
       <find>console.log</find>
-      <find>footer</find>
       <find>Ecod</find>
       <find>&quot;</find>
       <find>feedback_form</find>
@@ -81,7 +115,6 @@
       <find>a</find>
       <find>section</find>
       <find>hidden_</find>
-      <find>header</find>
       <find>txt_block</find>
       <find>&amp;:before</find>
       <find>h1</find>
@@ -94,6 +127,15 @@
       <find>pop</find>
       <find>front_banner</find>
       <find>.png</find>
+      <find>copy</find>
+      <find>contact_info</find>
+      <find>#skills_box</find>
+      <find>header</find>
+      <find>phone</find>
+      <find>footer</find>
+      <find>soc_link</find>
+      <find>text_about</find>
+      <find>experience_item</find>
     </findStrings>
     <replaceStrings>
       <replace>showItem</replace>
@@ -131,20 +173,23 @@
         <option value="$USER_HOME$/Downloads/vk.svg" />
         <option value="$USER_HOME$/Downloads/github-logo.svg" />
         <option value="$PROJECT_DIR$/app/img/telegram.svg" />
-        <option value="$PROJECT_DIR$/app/img/skype.svg" />
-        <option value="$PROJECT_DIR$/app/img/linkedin.svg" />
         <option value="$PROJECT_DIR$/app/img/instagram.svg" />
-        <option value="$PROJECT_DIR$/app/img/github.svg" />
-        <option value="$PROJECT_DIR$/app/img/vk.svg" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/app/sass/fonts.sass" />
         <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/../irina-aninger.github.io/portfolio/index.html" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/js/items.js" />
-        <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
+        <option value="$USER_HOME$/Downloads/phone-call.svg" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/img/email.svg" />
+        <option value="$PROJECT_DIR$/app/img/github.svg" />
+        <option value="$PROJECT_DIR$/app/img/linkedin.svg" />
+        <option value="$PROJECT_DIR$/app/img/skype.svg" />
+        <option value="$PROJECT_DIR$/app/img/vk.svg" />
+        <option value="$PROJECT_DIR$/app/img/call.svg" />
+        <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
       </list>
     </option>
   </component>
@@ -158,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +237,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,11 +297,12 @@
       <workItem from="1564124525295" duration="17325000" />
       <workItem from="1564390227456" duration="30892000" />
       <workItem from="1566748713629" duration="55289000" />
+      <workItem from="1567152032563" duration="10856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297648000" />
+    <option name="totallyTimeSpent" value="308504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,23 +365,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/unbzip2-stream/dist/unbzip2-stream.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/libs.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3174">
-          <caret column="138118" selection-start-column="138118" selection-end-column="138118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/wow/css/libs/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="1617" column="2" selection-start-line="1617" selection-start-column="2" selection-end-line="1617" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/libs.min.min.css" />
     <entry file="file://$PROJECT_DIR$/app/css/main.min.css" />
     <entry file="file://$PROJECT_DIR$/app/css/main.min.min.css" />
@@ -384,13 +413,6 @@
     <entry file="file://$PROJECT_DIR$/../../style.min.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa9752.4858/raleway.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp52189/public_html/templates/bounty/css/adaptive.less" />
-    <entry file="file://$PROJECT_DIR$/app/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2908">
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/1" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -416,19 +438,7 @@
     <entry file="file://$USER_HOME$/Downloads/vk.svg" />
     <entry file="file://$USER_HOME$/Downloads/github-logo.svg" />
     <entry file="file://$PROJECT_DIR$/app/img/telegram.svg" />
-    <entry file="file://$PROJECT_DIR$/app/img/skype.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/linkedin.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/instagram.svg" />
-    <entry file="file://$PROJECT_DIR$/app/img/github.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/vk.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4267">
@@ -457,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="727" column="8" lean-forward="true" selection-start-line="727" selection-start-column="8" selection-end-line="727" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/items.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -471,24 +474,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="158" column="43" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
+        <state relative-caret-position="560">
+          <caret line="150" column="81" selection-start-line="150" selection-start-column="81" selection-end-line="150" selection-end-column="81" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="746" column="6" selection-start-line="746" selection-end-line="746" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/phone-call.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="442">
+          <caret line="162" selection-start-line="162" selection-end-line="162" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/app/img/github.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/linkedin.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/skype.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/vk.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/email.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/call.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="150" column="81" selection-start-line="150" selection-start-column="81" selection-end-line="150" selection-end-column="81" />
+        <state relative-caret-position="201">
+          <caret line="183" column="46" selection-start-line="183" selection-start-column="46" selection-end-line="183" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="763" column="13" lean-forward="true" selection-start-line="763" selection-start-column="13" selection-end-line="763" selection-end-column="13" />
         </state>
       </provider>
     </entry>
