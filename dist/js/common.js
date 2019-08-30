@@ -153,12 +153,14 @@ document.addEventListener('scroll', () => {
     progressBar.forEach(animate);
 
     let header = document.querySelector('header'),
-        banner = document.querySelector('#front_banner');
+        footer = document.querySelector('footer');
 
-    if (window.pageYOffset >= banner.clientHeight/2) {
-        header.classList.add('active');
+    if (window.pageYOffset >= footer.clientHeight/4) {
+        // header.classList.add('active');
+        // footer.classList.add('active');
     } else {
-        header.classList.remove('active');
+        // header.classList.remove('active');
+        // footer.classList.remove('active');
     }
     console.log(window.pageYOffset);
 });
